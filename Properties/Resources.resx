@@ -1,0 +1,514 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ElkTaco_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ElkTaco_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WheatPorridge_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WheatPorridge_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AdvancedCampfireCooking" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AdvancedCampfireCooking.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tailoring" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tailoring.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Board_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Board_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Butchering" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Butchering.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PricklyPearFruit_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PricklyPearFruit_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SmallHangingHewnLogSign_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SmallHangingHewnLogSign_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fertilizers" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fertilizers.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IronBar_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IronBar_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Macaroons_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Macaroons_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Electronics" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Electronics.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SimpleSyrup_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SimpleSyrup_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ElkWellington_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ElkWellington_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BearSUPREME_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BearSUPREME_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Oil_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Oil_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hewing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hewing.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Logging" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Logging.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tortilla_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tortilla_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HuckleberryExtract_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HuckleberryExtract_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DistributionStation_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DistributionStation_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AdvancedBaking" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AdvancedBaking.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rice_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rice_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButcheryTable_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButcheryTable_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PrimeCut_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PrimeCut_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SmallTable_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SmallTable_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Icebox_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Icebox_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WoodenStrawBed_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WoodenStrawBed_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Corn_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Corn_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FoxCarcass_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FoxCarcass_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hunting" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hunting.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Wheelbarrow_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Wheelbarrow_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Chair_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Chair_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fishery_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fishery_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WoodenLatrine_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WoodenLatrine_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LargeHangingHewnLogSign_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LargeHangingHewnLogSign_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CamasBread_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CamasBread_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PaperMilling" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PaperMilling.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HewnLogDoor_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HewnLogDoor_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LargeStandingHewnLogSign_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LargeStandingHewnLogSign_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Gathering" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Gathering.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bannock_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bannock_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OilDrilling" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OilDrilling.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SearedMeat_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SearedMeat_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ContractBoard_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ContractBoard_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CornFritters_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CornFritters_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pumpkin_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pumpkin_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BoiledSausage_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BoiledSausage_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SmallWoodCart_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SmallWoodCart_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VegetableMedley_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\VegetableMedley_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pineapple_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pineapple_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Door_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Door_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SweetSalad_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SweetSalad_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tomato_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tomato_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FiddleheadSalad_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FiddleheadSalad_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AdvancedCooking" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AdvancedCooking.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MountainGoatCarcass_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MountainGoatCarcass_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bread_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bread_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Beet_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Beet_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FriedTomatoes_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FriedTomatoes_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BeanPaste_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BeanPaste_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CamasBulb_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CamasBulb_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Smelting" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Smelting.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Beans_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Beans_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Glassworking" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Glassworking.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CarpentryTable_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CarpentryTable_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WildMix_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WildMix_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Flour_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Flour_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WolfCarcass_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WolfCarcass_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RawSausage_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RawSausage_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Baking" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Baking.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CriminiMushrooms_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CriminiMushrooms_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Farming" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Farming.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CampfireRoast_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CampfireRoast_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CrimsonSalad_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CrimsonSalad_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CamasPaste_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CamasPaste_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Stone_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Stone_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lumber" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lumber.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TailoringTable_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TailoringTable_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CampfireStew_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CampfireStew_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PineappleFriendRice_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PineappleFriendRice_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fiddleheads_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fiddleheads_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WainwrightTable_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WainwrightTable_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PlantFibers_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PlantFibers_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RealEstateDesk_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RealEstateDesk_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ElkCarcass_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ElkCarcass_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OtterCarcass_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OtterCarcass_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Acorn_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Acorn_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SelfImprovement" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SelfImprovement.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Table_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Table_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bearclaw_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bearclaw_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BasicSalad_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BasicSalad_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TurkeyCarcass_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TurkeyCarcass_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Huckleberries_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Huckleberries_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RawMeat_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RawMeat_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Wheat_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Wheat_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InfusedOil_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\InfusedOil_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cement" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cement.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mechanics" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mechanics.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MeatStock_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MeatStock_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mining" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mining.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HareCarcass_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HareCarcass_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BisonCarcass_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BisonCarcass_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bricklaying" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bricklaying.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tallow_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tallow_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SmallStandingHewnLogSign_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SmallStandingHewnLogSign_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DeerCarcass_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DeerCarcass_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BoiledRice_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BoiledRice_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RawRoast_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RawRoast_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Industry" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Industry.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FishTrap_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FishTrap_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sugar_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sugar_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AcornPowder_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AcornPowder_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mortaring" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mortaring.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CerealGerm_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CerealGerm_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HewnLog_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HewnLog_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BighornCarcass_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BighornCarcass_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cornmeal_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cornmeal_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IronOre_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IronOre_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PreparedMeat_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PreparedMeat_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WildStew_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WildStew_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Log_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Log_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ScrapMeat_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ScrapMeat_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FruitSalad_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FruitSalad_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WoodPulp_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WoodPulp_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FriedHareHaunches_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FriedHareHaunches_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CharredSausage_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CharredSausage_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Yeast_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Yeast_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Milling" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Milling.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BasicEngineering" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BasicEngineering.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Anvil_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Anvil_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
